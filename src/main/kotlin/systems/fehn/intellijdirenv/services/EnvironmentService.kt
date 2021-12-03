@@ -1,6 +1,6 @@
-package systems.fehn.intellijdirenv.services
+package systems.infinityghost.intellijdirenv.services
 
-import systems.fehn.intellijdirenv.MyBundle
+import systems.infinityghost.intellijdirenv.MyBundle
 
 class EnvironmentService {
     fun unsetVariable(name: String) {

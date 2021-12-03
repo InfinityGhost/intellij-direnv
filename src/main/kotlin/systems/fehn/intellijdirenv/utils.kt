@@ -1,4 +1,4 @@
-package systems.fehn.intellijdirenv
+package systems.infinityghost.intellijdirenv
 
 import com.intellij.notification.NotificationGroup
 

@@ -1,4 +1,4 @@
-package systems.fehn.intellijdirenv.services
+package systems.infinityghost.intellijdirenv.services
 
 import com.fasterxml.jackson.core.JsonFactory
 import com.fasterxml.jackson.core.JsonParser
@@ -14,9 +14,9 @@ import com.intellij.openapi.fileEditor.FileEditorManager
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.guessProjectDir
 import com.intellij.openapi.vfs.VirtualFile
-import systems.fehn.intellijdirenv.MyBundle
-import systems.fehn.intellijdirenv.notificationGroup
-import systems.fehn.intellijdirenv.switchNull
+import systems.infinityghost.intellijdirenv.MyBundle
+import systems.infinityghost.intellijdirenv.notificationGroup
+import systems.infinityghost.intellijdirenv.switchNull
 
 class DirenvProjectService(private val project: Project) {
     private val logger by lazy { logger<DirenvProjectService>() }
