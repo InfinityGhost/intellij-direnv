@@ -32,4 +32,9 @@
                     relative-to-action="SynchronizeCurrentFile" />
     </action>
   </actions>
+
+  <applicationListeners>
+    <listener class="systems.fehn.intellijdirenv.listeners.DirenvProjectManagerListener"
+              topic="com.intellij.openapi.project.ProjectManagerListener"/>
+  </applicationListeners>
 </idea-plugin>
